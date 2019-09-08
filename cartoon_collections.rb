@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet array
   array.map do |el|
-    "#{el[0]}#{el[1,el.size]}!"
+    "#{el[0].upcase}#{el[1,el.size]}!"
   end
 end
 
